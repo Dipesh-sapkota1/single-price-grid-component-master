@@ -121,6 +121,7 @@ body{
 }
 .plan span:first-child{
 	font-size: var(--fs-200);
+    font-weight: var(--fw-700);
 }
 .plan span:last-child{
 	opacity: 0.5;
