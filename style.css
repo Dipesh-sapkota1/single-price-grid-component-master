@@ -10,6 +10,7 @@
 	--Grayish-Blue: hsl(218, 22%, 67%);
 	/* Fonts */
 	--fs-100: 1rem;
+    --fs-125: 1.25rem;
 	--fs-150: 1.5rem;
 	--fs-200: 2rem;
 	--fs-250: 2.5rem;
@@ -114,6 +115,9 @@ body{
 	background: var(--cyan);
 	color: var(--Light-Gray);
 }
+#subscription .subscription-title{
+    font-size: var(--fs-125);
+}
 .plan{
 	display: grid;
 	gap: 0.4rem;
@@ -133,6 +137,7 @@ body{
 }
 #features .features-title{
 	color: #fff;
+    font-size: var(--fs-125);
 }
 #features div p{
 	opacity: 0.8;
